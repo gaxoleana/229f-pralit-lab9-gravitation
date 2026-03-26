@@ -5,7 +5,7 @@ public class Gravity : MonoBehaviour
 {
     public static List<Gravity> otherObj;
     private Rigidbody rb;
-    const float G = 0.00667f;
+    const float G = 6.67f;
 
     private void Awake()
     {
